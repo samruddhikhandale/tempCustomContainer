@@ -6,5 +6,6 @@
 	},
      "containerUser": "mock-container",
      "remoteUser": "mock-remote",
+     "appPort": [4500],
     "postStartCommand": "bash ./run.sh",
 }
