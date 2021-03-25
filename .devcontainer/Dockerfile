@@ -2,7 +2,7 @@
 ARG VARIANT=focal
 FROM mcr.microsoft.com/vscode/devcontainers/base:${VARIANT}
 
-RUN groupadd -r mock-container && useradd -r -g mock-container mock-container
+RUN useradd -ms /bin/bash  mock-container
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
