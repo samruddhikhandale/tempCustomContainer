@@ -1,5 +1,6 @@
 {
     "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+     "containerUser": "mock-container",
     "appPort": [ 3000, "8921:5000" ],
     "forwardPorts": [3005, 3001],
     "postStartCommand": "bash ./run.sh",
