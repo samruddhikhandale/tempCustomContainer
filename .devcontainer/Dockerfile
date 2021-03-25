@@ -1,7 +1,7 @@
 # [Choice] Ubuntu version: bionic, focal
 ARG VARIANT=focal
 FROM mcr.microsoft.com/vscode/devcontainers/base:${VARIANT}
-RUN net user /add mock-container
+RUN groupadd -r mock-container && useradd -r -g mock-container mock-container
 USER mock-container
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
