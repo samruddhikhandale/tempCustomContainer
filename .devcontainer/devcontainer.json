@@ -1,4 +1,6 @@
 {
     "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
     "postStartCommand": "bash ./run.sh",
+     "containerUser": "mock-container",
+    "remoteUser": "mock-user",
 }
