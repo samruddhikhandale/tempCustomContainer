@@ -3,7 +3,4 @@
     "containerUser": "mock-container",
     "remoteUser": "mock-user",
     "workspaceFolder": "/Scripts",
-    "forwardPorts": [500],
-    "postStartCommand": "bash ./run.sh"
-
 }
