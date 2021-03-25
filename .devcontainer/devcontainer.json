@@ -1,6 +1,4 @@
 {
     "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
-    "containerUser": "mock-container",
-    "remoteUser": "mock-user",
     "workspaceFolder": "/Scripts",
 }
