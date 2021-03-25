@@ -4,5 +4,7 @@
 		// Update 'VARIANT' to pick an Ubuntu version: focal, bionic
 		"args": { "VARIANT": "focal" }
 	},
+     "containerUser": "mock-container",
+     "remoteUser": "mock-remote",
     "postStartCommand": "bash ./run.sh",
 }
