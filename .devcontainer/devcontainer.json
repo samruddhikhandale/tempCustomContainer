@@ -7,5 +7,7 @@
      "containerUser": "mock-container",
      "remoteUser": "mock-remote",
      "appPort": [4500],
+     "forwardPorts": [5005],
+     "extensions": ["esbenp.prettier-vscode"],
     "postStartCommand": "bash ./run.sh",
 }
