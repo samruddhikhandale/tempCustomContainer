@@ -9,7 +9,6 @@
      "appPort": [4500],
      "forwardPorts": [5005],
      "extensions": ["esbenp.prettier-vscode"],
-"postCreateCommand": "bash sudo apt-get install nmap",
     "postStartCommand": "bash ./run.sh",
 	
 }
