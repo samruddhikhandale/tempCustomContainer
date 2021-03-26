@@ -1,7 +1,6 @@
 # [Choice] Ubuntu version: bionic, focal
 ARG VARIANT=focal
 FROM mcr.microsoft.com/vscode/devcontainers/base:${VARIANT}
-RUN apt-get install telnet
 RUN useradd -ms /bin/bash mock-container
 RUN useradd -ms /bin/bash mock-remote
 # WORKDIR /home/mock-container
