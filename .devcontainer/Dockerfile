@@ -3,7 +3,7 @@ ARG VARIANT=focal
 FROM mcr.microsoft.com/vscode/devcontainers/base:${VARIANT}
 RUN apt-get update \
     && export DEBIAN_FRONTEND=noninteractive \
-    && apt-get -y install --no-install-recommends nmap
+    && apt-get -y install --no-install-recommends telnet
 RUN useradd -ms /bin/bash mock-container
 RUN useradd -ms /bin/bash mock-remote
 # WORKDIR /home/mock-container
