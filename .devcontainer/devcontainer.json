@@ -3,6 +3,10 @@
 		"dockerfile": "Dockerfile",
 		"args": { "VARIANT": "focal" }
 	},
-     "containerUser": "mock-user",
-     "remoteUser": "mock-remote-user",
+    "containerUser": "mock-container",
+     "remoteUser": "mock-remote",
+     "extensions": [
+        "esbenp.prettier-vscode",
+        "bbenoist.shell"
+    ],
 }
