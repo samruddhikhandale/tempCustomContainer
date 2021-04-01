@@ -4,6 +4,6 @@
 		"args": { "VARIANT": "focal" }
 	},
      "containerUser": "mock-container",
-     "remoteUser": "mock-remote",
+     "remoteUser": "mock-user",
      "extensions": ["esbenp.prettier-vscode"]
 }
