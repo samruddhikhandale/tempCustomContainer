@@ -1,14 +1,9 @@
 {
     "build": {
 		"dockerfile": "Dockerfile",
-		// Update 'VARIANT' to pick an Ubuntu version: focal, bionic
 		"args": { "VARIANT": "focal" }
 	},
      "containerUser": "mock-container",
      "remoteUser": "mock-remote",
-     "appPort": [4500],
-     "forwardPorts": [5005],
-     "extensions": ["esbenp.prettier-vscode"],
-    "postStartCommand": "bash ./run.sh",
-	
+     "extensions": ["esbenp.prettier-vscode"]
 }
