@@ -5,5 +5,8 @@
 	},
      "containerUser": "mock-user",
      "remoteUser": "mock-remote-user",
-     "extensions": ["esbenp.prettier-vscode", "bbenoist.shell"]
+	"extensions": [
+        "esbenp.prettier-vscode",
+        "bbenoist.shell"
+    ],
 }
