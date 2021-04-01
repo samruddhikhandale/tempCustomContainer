@@ -4,6 +4,7 @@
 		"args": { "VARIANT": "focal" }
 	},
     "containerUser": "mock-container",
+    "name": "container-test",
      "extensions": [
         "esbenp.prettier-vscode",
         "bbenoist.shell"
