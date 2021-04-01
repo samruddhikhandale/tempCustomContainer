@@ -4,5 +4,5 @@
 		"args": { "VARIANT": "focal" }
 	},
      "containerUser": "mock-user",
-     "remoteUser": "mock-remote-user"
+     "remoteUser": "mock-remote-user",
 }
